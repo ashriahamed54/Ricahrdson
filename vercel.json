@@ -2,10 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/dist/client/assets/$1"
-    },
+    { "handle": "filesystem" },
     {
       "src": "/(.*)",
       "dest": "/api/index"
